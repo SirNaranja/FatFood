@@ -1,0 +1,172 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.form-control:focus {
+  outline: none;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+}
+
+
+.checkbox-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.checkbox-wrapper i {
+  font-size: 24px;
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-info {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.btn-just-icon {
+  padding: 0;
+}
+
+.btn-just-icon i {
+  font-size: 24px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #333;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.table td {
+  background-color: whitesmoke;
+}
+
+.table td:first-child {
+  position: relative;
+}
+
+.table td .image-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.table td .image-wrapper img {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.table td .input-wrapper {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.table td:hover .input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.table td .form-control-static {
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+.table td .form-control-static:focus {
+  outline: none;
+}
+
+.table td .button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+

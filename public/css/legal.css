@@ -1,0 +1,15 @@
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    font-weight: bold;
+    overflow-x: hidden;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align:justify;
+    line-height: 30px;
+}

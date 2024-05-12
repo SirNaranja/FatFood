@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    overflow-x: hidden;
+}
+
+.contenedor {
+    display: flex;
+    border-radius: 2px;
+    box-shadow: 19px 20px 8px -9px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+#msg{
+    color: blue;
+    font-size: 12px;
+}
+
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 20px;
+    width: 100%;
+}
+
+.formControl {
+    margin-bottom: 7px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.formControl label {
+    display: inline-block;
+    margin-bottom: 7px;
+    font: weight 200px
+}
+
+.formControl input {
+    border: none;
+    background-color: #f0f0f0;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+}
+
+.contenedor img {
+    border: none;
+    position: relative;
+    height: 126px;
+    width: 120px;
+}
+a{
+    text-decoration: none;
+}
+
+#formulario button {
+    background: black;
+    border-radius: 2px;
+    color: #f6f6e9;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+}

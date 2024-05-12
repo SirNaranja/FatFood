@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  body h1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  table th,
+  table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  table th {
+    background-color: #f0f0f0;
+    text-align: left;
+  }
+
+  /* Estilos específicos */
+  .cajagrande {
+    margin-top: 20px;
+  }
+
+  .cajagrande input,
+  .cajagrande select {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  #loader {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #loader img {
+    width: 200px;
+  }
+
+  #btañadir {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  #btañadir:hover {
+    background-color: black;
+  }
+
+  /* Estilos para los enlaces */
+ a.deletebt, a.bt2 {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+
+  a.deletebt{
+    background-color: red;
+  }
+
+
+
