@@ -1,6 +1,6 @@
 <h1>FATFOOD
 <hr> 
-<h2>Delivery Restaurant with Laravel, HTML, CSS and JS
+<h2>Delivery Restaurant made in Laravel, HTML, CSS and JS
 <p>Web Page with features like:
 <li>Users(Login and Register) with different roles
 <li>Diferente menus
